@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+
+        <form>
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" name="name" id="name" placeholder="Jane Doe" autofocus>
+            <br>
+            <label for="comment">Comment:</label>
+            <br>
+            <textarea rows="3" cols="20" name="comment" id="comment" placeholder="Tell us about yourself." required></textarea>
+            <br>
+            <label for="date">Date</label>
+            <br>
+            <input type="date" name="comment" id="date">
+            <br>
+            <label for="pizzaToppings">Favorite Pizza Topping?</label>
+            <br>
+            <input list="pizzaToppings" name="pizzaToppings">
+            <datalist id="pizzaToppings">
+                <option value="Pepperoni"></option>
+                <option value="Mushroom"></option>
+                <option value="Peppers"></option>
+            </datalist>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+    </body>
+</html>
